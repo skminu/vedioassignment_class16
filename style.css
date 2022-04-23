@@ -1,0 +1,114 @@
+body{
+    font-family: arial;
+}
+img{
+    max-width: 100%;
+}
+/*Start Header Section*/
+.header_section{
+    background-color: rgb(3 169 244 / 84%);
+}
+
+.logo img{
+    width: 154px;
+}
+
+.main_menu{}
+.main_menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.main_menu ul li{
+    display: inline-block;
+}
+.main_menu ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 67px;
+    text-decoration: none;
+    border-right: 1px solid #ddd;
+   
+}
+.main_menu ul li a:hover{}
+
+/*End Header Section*/
+
+/*Start Banner Section*/
+   .banner_section{
+       background: url(./image/background.jpg) no-repeat, center;
+       background-size: cover;
+       padding:  200px 0;
+   }
+   .banner_contant h2{
+       color: #fff;
+   }
+   .banner_contant p{ 
+       color: #fff;
+       padding: 20px 0;
+       font-size: 15px;
+       line-height: 30px;
+    }
+   
+
+/*End Banner Section*/
+
+/*Start About Section*/
+.about_section{
+    padding: 73px 0;
+    background: #c2c19933;
+
+}
+
+/*End About Section*/
+
+/*Start Service Section*/
+.service_section{
+    padding: 73px 0;
+}
+span i{
+    background-color: blue;
+    color: #fff;
+    border-radius: 20px 0 20px 0;
+    font-size: 40px;
+    padding: 10px;
+}
+/*End service Section*/
+
+/*Start Product Section*/
+  .product_img img{
+      width: 145px;
+  }
+  .product_right ul{
+      list-style: none;
+      padding-left: 0;
+  }
+  .product_right ul
+  li{
+      background-color: #fafafa;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 15px;
+  }
+/*End Product Section*/
+
+
+/*Start Footer Section*/
+.footer_section{
+    background-color:#2c3e50;
+    padding: 10px 0;
+  
+}
+.footer_section p{
+   margin-bottom: 0;
+   color: #fff;
+}
+.footer_section a{
+    color: #fff;
+    margin-left: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+/*End Footer Section*/
